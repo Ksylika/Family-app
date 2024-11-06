@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 23px;
+    box-shadow: 0px 1px 0px 0px rgba(17, 17, 17, 0.10);
+    height: 76px;
+    margin-bottom: 30px;
+    &__logo {
+        margin-right: 30%;
+    }
+
+    &__navigation {
+        display: flex;
+        &-list {
+            display: flex;
+            column-gap: 24px;
+        }
+        &-link {
+            color: rgba(17, 17, 17, 0.48);
+            font-size: 14px;
+            font-weight: 400; 
+            line-height: 1.7;
+
+            &:hover {
+                color: var(--current-color);
+                transition-duration: 2ms;
+            }
+        }
+    }
+}

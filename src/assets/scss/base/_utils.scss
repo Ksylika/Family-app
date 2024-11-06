@@ -1,0 +1,22 @@
+body {
+    background-color: var(--background-color);
+    font-family: var(--font-family);
+    color: var(--current-color);
+    position: relative;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+    padding-inline: var(--container-padding-x);
+    margin-inline: auto;
+    padding-bottom: 120px;
+  }
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button{ -webkit-appearance: none; margin: 0; }
+
+a:active, 
+a:hover, 
+a {
+    text-decoration: none;
+  }
