@@ -4,7 +4,7 @@
 
 ## Ссылка на сайт
 
-[Перейти на сайт проекта](https://ksylika.github.io/Family-form/)
+[Перейти на сайт проекта](https://ksylika.github.io/Family-app/)
 
 ## Функциональные особенности
 
